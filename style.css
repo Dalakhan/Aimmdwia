@@ -1,0 +1,41 @@
+body {
+	background-image:url(shrek.jpg) ;
+	background-size:cover;
+	background: ;
+}
+.img1 {
+	position: absolute;
+	width: 200px;
+	top: 500px;
+	left: 700px;
+	animation-name: VelGovno;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+}
+.img2 {
+	position: absolute;
+	width: 100px;
+	bottom: 100px;
+	left: 1500px;
+}
+.img3 {
+	position: absolute;
+	width: 50px;
+	left: 1000px;
+}
+.pat1{
+	font-size: 25px;
+}
+.pat2 {
+	font-size: 25px;
+}
+.pat3 {
+	font-size: 25px;
+}
+@keyframes VelGovno{
+	0%{left: 0px; right: 0px}
+	25%{left: 500px; right: 0px}
+	50%{top: 400px; right: 0px }
+	75%{right: 500px; left: 0px}
+	100%{right: 0px; bottom: 1500px;}
+}
